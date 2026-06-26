@@ -14,25 +14,116 @@
   <link href="sureshot.css" rel="stylesheet">
 
   <style>
-    /* Home-specific: hero background using their YouTube channel art as fallback gradient */
+    :root {
+      --ss-gold: #c8a84b;
+    }
+
+    /* ── Hero ─────────────────────────────────────────────── */
     .ss-hero {
-      background:
-        linear-gradient(135deg, rgba(10,10,15,0.7) 0%, rgba(10,10,15,0.9) 100%),
-        url('http://www.sureshotinc.com/images/home-bg.jpg') center/cover no-repeat;
+      position: relative;
+      min-height: 90vh;
+      background: #09090d;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      padding: 130px 0 90px;
     }
-    /* Animated filmstrip accent lines */
-    .ss-hero-accent-line {
+
+    /* Soft radial gold spotlight + cool vignette */
+    .ss-hero::before {
+      content: '';
       position: absolute;
-      left: 0; right: 0;
-      height: 1px;
-      background: linear-gradient(to right, transparent, rgba(200,168,75,0.4), transparent);
-      animation: scan 6s linear infinite;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 65% at 15% 35%, rgba(200,168,75,0.09) 0%, transparent 65%),
+        radial-gradient(ellipse 70% 50% at 85% 85%, rgba(20,20,40,0.6) 0%, transparent 60%);
+      pointer-events: none;
     }
-    @keyframes scan {
-      0%   { top: 0%; opacity: 0; }
-      5%   { opacity: 1; }
-      95%  { opacity: 1; }
-      100% { top: 100%; opacity: 0; }
+
+    /* Subtle dot-grid texture */
+    .ss-hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(rgba(200,168,75,0.055) 1px, transparent 1px);
+      background-size: 38px 38px;
+      pointer-events: none;
+    }
+
+    .ss-hero-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Eyebrow / location tag */
+    .ss-hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ss-gold);
+      margin-bottom: 1.5rem;
+    }
+    .ss-hero-eyebrow::before {
+      content: '';
+      display: inline-block;
+      width: 28px;
+      height: 2px;
+      background: var(--ss-gold);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    /* Headline */
+    .ss-hero-h1 {
+      font-size: clamp(3rem, 7.5vw, 6.75rem);
+      font-weight: 800;
+      line-height: 1.03;
+      color: #fff;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.6rem;
+    }
+    .ss-hero-h1 .ss-accent {
+      color: var(--ss-gold);
+    }
+
+    /* Body copy */
+    .ss-hero-lead {
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.48);
+      line-height: 1.85;
+      max-width: 440px;
+      margin-bottom: 2.5rem;
+    }
+
+    /* Decorative geometric — bottom-right corner */
+    .ss-hero-deco {
+      position: absolute;
+      right: -80px;
+      bottom: -80px;
+      width: 480px;
+      height: 480px;
+      border: 1px solid rgba(200,168,75,0.07);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .ss-hero-deco::before {
+      content: '';
+      position: absolute;
+      inset: 50px;
+      border: 1px solid rgba(200,168,75,0.04);
+      border-radius: 50%;
+    }
+    .ss-hero-deco::after {
+      content: '';
+      position: absolute;
+      inset: 110px;
+      border: 1px solid rgba(200,168,75,0.035);
+      border-radius: 50%;
     }
   </style>
 </head>
@@ -68,25 +159,22 @@
        HERO
   ============================================================ -->
   <section class="ss-hero">
-    <div class="ss-hero-filmstrip"></div>
-    <div class="ss-hero-filmstrip ss-hero-filmstrip-bottom"></div>
-    <div class="ss-hero-bg"></div>
-    <div class="ss-hero-accent-line"></div>
+    <div class="ss-hero-deco"></div>
 
-    <div class="container ss-hero-content">
+    <div class="container ss-hero-inner">
       <div class="row">
-        <div class="col-lg-8">
-          <p class="ss-hero-eyebrow ss-fade-in">Washington DC &amp; Northern Virginia</p>
-          <h1 class="ss-fade-in ss-delay-1">
-            YOUR TOP CHOICE<br>
-            FOR VIDEO<br>
-            <span class="accent">PRODUCTION</span>
+        <div class="col-xl-7 col-lg-9">
+          <p class="ss-hero-eyebrow">Washington DC &amp; Northern Virginia</p>
+          <h1 class="ss-hero-h1">
+            We Tell<br>
+            Stories That<br>
+            <span class="ss-accent">Move People.</span>
           </h1>
-          <p class="ss-hero-lead ss-fade-in ss-delay-2">
-            Full-service HD video production serving DC, Northern Virginia, and Maryland
-            since 1998. From concept to completion — we tell your story.
+          <p class="ss-hero-lead">
+            Full-service HD video production serving DC, Northern Virginia,
+            and Maryland since 1998 — from concept to final cut.
           </p>
-          <div class="d-flex flex-wrap gap-3 ss-fade-in ss-delay-3">
+          <div class="d-flex flex-wrap gap-3">
             <a href="contact.html" class="btn-ss-primary">Get a Free Quote</a>
             <a href="portfolio.html" class="btn-ss-outline">View Our Work</a>
           </div>
@@ -100,7 +188,7 @@
   ============================================================ -->
   <div class="ss-stats">
     <div class="container">
-      <div class="row">
+      <div class="row pt-3">
         <div class="col-6 col-md-3">
           <div class="ss-stat-item">
             <div class="ss-stat-number"><span data-count-to="22">22</span>+</div>
@@ -134,7 +222,7 @@
   ============================================================ -->
   <section class="ss-section">
     <div class="container">
-      <div class="row align-items-center g-5">
+      <div class="row align-items-center g-5 pt-3">
         <div class="col-lg-6" data-ss-reveal>
           <div class="ss-divider"></div>
           <h2 class="ss-section-title">About Sure Shot <span class="accent">Productions</span></h2>
@@ -175,7 +263,7 @@
   ============================================================ -->
   <section class="ss-section ss-section-dark">
     <div class="container">
-      <div class="row mb-4" data-ss-reveal>
+      <div class="row mb-4 pt-3" data-ss-reveal>
         <div class="col-lg-6">
           <div class="ss-divider"></div>
           <h2 class="ss-section-title">What We <span class="accent">Do</span></h2>
