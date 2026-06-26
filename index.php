@@ -87,7 +87,7 @@
         </div>
         <div class="col-lg-6" data-ss-reveal>
           <!-- Embedded YouTube channel -->
-          <div class="ss-video-wrapper">
+          <div class="ss-video-wrapper ratio ratio-16x9">
             <iframe
               src="https://www.youtube.com/embed?listType=user_uploads&list=SureShot3122"
               title="Sure Shot Productions Video Reel"

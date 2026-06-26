@@ -9,9 +9,9 @@
             <a href="tel:7033790600">(703) 379-0600</a>
           </address>
           <div class="ss-social-links">
-            <a href="https://www.facebook.com/pages/Sure-Shot-Productions-Inc/491220324349599" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.youtube.com/user/SureShot3122" target="_blank" rel="noopener" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
-            <a href="mailto:will@sureshotinc.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+            <a href="https://www.facebook.com/pages/Sure-Shot-Productions-Inc/491220324349599" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook text-primary"></i></a>
+            <a href="https://www.youtube.com/user/SureShot3122" target="_blank" rel="noopener" aria-label="YouTube"><i class="bi bi-youtube text-danger"></i></a>
+            <a href="mailto:will@sureshotinc.com" aria-label="Email"><i class="bi bi-envelope text-secondary"></i></a>
           </div>
         </div>
         <div class="col-6 col-lg-2">
