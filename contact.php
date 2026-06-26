@@ -1,4 +1,10 @@
-<?php include 'includes/header.php'; ?>
+<?php
+require __DIR__ . '/includes/env.php';
+load_env(__DIR__ . '/.env');
+$captcha_site_key = $_ENV['CAPTCHA_SITE_KEY'] ?? '';
+$extra_head = '<script src="https://www.google.com/recaptcha/api.js" async defer></script>';
+include 'includes/header.php';
+?>
 
 
   <!-- PAGE HEADER -->
@@ -149,13 +155,68 @@
                 <div class="invalid-feedback" style="color:#E2C06C;font-size:0.8rem;">Please describe your project.</div>
               </div>
               <div class="col-12">
-                <button type="submit" class="btn-ss-primary" style="font-size:1rem;padding:0.9rem 2.5rem;">
+                <div class="g-recaptcha" data-sitekey="<?= htmlspecialchars($captcha_site_key) ?>"></div>
+              </div>
+              <div class="col-12">
+                <button type="submit" id="ss-submit-btn" class="btn-ss-primary" style="font-size:1rem;padding:0.9rem 2.5rem;">
                   <i class="bi bi-send me-2"></i>Submit Project Inquiry
                 </button>
               </div>
             </div>
           </form>
-          <div id="ss-form-feedback" role="alert"></div>
+          <div id="ss-form-feedback" role="alert" style="margin-top:1rem;"></div>
+
+<script>
+(function () {
+  'use strict';
+  var form      = document.getElementById('ss-contact-form');
+  var feedback  = document.getElementById('ss-form-feedback');
+  var submitBtn = document.getElementById('ss-submit-btn');
+  var defaultBtnHTML = submitBtn.innerHTML;
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // HTML5 validation
+    if (!form.checkValidity()) {
+      form.classList.add('was-validated');
+      return;
+    }
+
+    // reCAPTCHA check
+    if (typeof grecaptcha === 'undefined' || grecaptcha.getResponse() === '') {
+      showFeedback(false, 'Please complete the reCAPTCHA verification.');
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<i class="bi bi-hourglass-split me-2"></i>Sending…';
+    feedback.innerHTML = '';
+    feedback.className = '';
+
+    fetch('contact-handler.php', { method: 'POST', body: new FormData(form) })
+      .then(function (r) { return r.json(); })
+      .then(function (json) {
+        showFeedback(json.ok, json.message);
+        if (json.ok) { form.reset(); grecaptcha.reset(); }
+      })
+      .catch(function () {
+        showFeedback(false, 'Network error — please try again or email us directly.');
+      })
+      .finally(function () {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = defaultBtnHTML;
+      });
+  });
+
+  function showFeedback(ok, msg) {
+    feedback.textContent = msg;
+    feedback.className = ok
+      ? 'alert alert-success'
+      : 'alert alert-warning';
+  }
+})();
+</script>
         </div>
 
       </div>
