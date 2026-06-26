@@ -258,7 +258,23 @@
   background: rgba(200,168,75,0.08);
 }
 
-.ss-portfolio-item { cursor: pointer; }
+.ss-portfolio-item { cursor: pointer; position: relative; overflow: hidden; }
+
+.ss-portfolio-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.1) 50%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem 1.1rem 0.85rem;
+  opacity: 0;
+  transition: var(--transition);
+  z-index: 4;
+}
+.ss-portfolio-overlay h4 { color: var(--ss-white); font-size: 1rem; margin: 0; }
+.ss-portfolio-overlay p  { color: var(--ss-gold);  font-size: 0.75rem; margin: 0.15rem 0 0; letter-spacing: 0.06em; text-transform: uppercase; }
+.ss-portfolio-item:hover .ss-portfolio-overlay { opacity: 1; }
 
 .ss-play-btn {
   position: absolute;
