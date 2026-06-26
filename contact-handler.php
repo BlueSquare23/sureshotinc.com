@@ -46,21 +46,19 @@ if ($captcha === '') {
     respond(false, 'Please complete the reCAPTCHA verification.');
 }
 
-$verify_raw = file_get_contents(
-    'https://www.google.com/recaptcha/api/siteverify',
-    false,
-    stream_context_create([
-        'http' => [
-            'method'  => 'POST',
-            'header'  => 'Content-Type: application/x-www-form-urlencoded',
-            'content' => http_build_query([
-                'secret'   => $secret,
-                'response' => $captcha,
-                'remoteip' => $_SERVER['REMOTE_ADDR'] ?? '',
-            ]),
-        ],
-    ])
-);
+$ch = curl_init('https://www.google.com/recaptcha/api/siteverify');
+curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_POST           => true,
+    CURLOPT_POSTFIELDS     => http_build_query([
+        'secret'   => $secret,
+        'response' => $captcha,
+        'remoteip' => $_SERVER['REMOTE_ADDR'] ?? '',
+    ]),
+    CURLOPT_TIMEOUT        => 10,
+]);
+$verify_raw = curl_exec($ch);
+curl_close($ch);
 
 $verify = json_decode($verify_raw ?: '{}', true);
 if (empty($verify['success'])) {
