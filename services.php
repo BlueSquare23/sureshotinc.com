@@ -1,46 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Video Production Washington DC and Video Production Virginia with HiDef, aerial videography, and studio production services. Sure Shot (703) 379-0600">
-  <title>Video Production Washington DC | Services | Sure Shot Video Productions</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-  <link href="static/css/main.css" rel="stylesheet">
-</head>
-<body class="ss-page-offset">
+<?php include 'includes/header.php'; ?>
 
-  <!-- NAVBAR -->
-  <nav class="ss-navbar navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <i class="bi bi-camera-video-fill text-gold me-1"></i>
-        SURE SHOT <span>PRODUCTIONS</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ssNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="ssNav">
-        <ul class="navbar-nav gap-1">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="clients.html">For Clients</a></li>
-          <li class="nav-item"><a class="nav-link" href="directions.html">Directions</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <!-- PAGE HEADER -->
   <header class="ss-page-header">
     <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
           <li class="breadcrumb-item active">Services</li>
         </ol>
       </nav>
@@ -62,7 +28,7 @@
             we've produced thousands of videos finely tuned to capture your target audience.
             We offer professional video production in Washington, DC and throughout Virginia.
           </p>
-          <a href="portfolio.html" class="btn-ss-outline mt-4 d-inline-block">View Our Portfolio</a>
+          <a href="portfolio.php" class="btn-ss-outline mt-4 d-inline-block">View Our Portfolio</a>
         </div>
       </div>
     </div>
@@ -223,73 +189,13 @@
           </p>
         </div>
         <div class="col-lg-4 d-flex gap-3 flex-wrap mt-4 mt-lg-0 justify-content-lg-end">
-          <a href="portfolio.html" class="btn-ss-outline">See Portfolio</a>
-          <a href="contact.html" class="btn-ss-primary">Get a Quote</a>
+          <a href="portfolio.php" class="btn-ss-outline">See Portfolio</a>
+          <a href="contact.php" class="btn-ss-primary">Get a Quote</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- FOOTER -->
-  <footer class="ss-footer">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-4">
-          <div class="ss-footer-brand">SURE SHOT <span>PRODUCTIONS</span></div>
-          <address class="mt-2">
-            3915 Old Lee Hwy, Suite 21C<br>
-            Fairfax, VA 22030<br>
-            <a href="tel:7033790600" style="color:var(--ss-gold);">(703) 379-0600</a>
-          </address>
-          <div class="ss-social-links">
-            <a href="https://www.facebook.com/pages/Sure-Shot-Productions-Inc/491220324349599" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook text-primary"></i></a>
-            <a href="https://www.youtube.com/user/SureShot3122" target="_blank" rel="noopener" aria-label="YouTube"><i class="bi bi-youtube text-danger"></i></a>
-            <a href="mailto:will@sureshotinc.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
-          </div>
-        </div>
-        <div class="col-6 col-lg-2">
-          <h5>Pages</h5>
-          <ul class="ss-footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="clients.html">For Clients</a></li>
-            <li><a href="directions.html">Directions</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-3">
-          <h5>Services</h5>
-          <ul class="ss-footer-links">
-            <li><a href="services.html">4K Field Production</a></li>
-            <li><a href="services.html">Studio Production</a></li>
-            <li><a href="services.html">Post Production</a></li>
-            <li><a href="services.html">Script Writing</a></li>
-            <li><a href="services.html">TV Commercials</a></li>
-            <li><a href="services.html">Web Video</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3">
-          <h5>Contact</h5>
-          <p>For inquiries about your next video project:</p>
-          <p>
-            <a href="mailto:will@sureshotinc.com">will@sureshotinc.com</a><br>
-            <a href="mailto:jeff@sureshotinc.com">jeff@sureshotinc.com</a>
-          </p>
-          <a href="contact.html" class="btn-ss-primary mt-3 d-inline-block" style="font-size:0.85rem;padding:0.6rem 1.5rem;">Quick Quote</a>
-        </div>
-      </div>
-      <div class="ss-footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
-        <span>&copy; 2024 Sure Shot Productions, Inc. All rights reserved.</span>
-        <a href="http://sureshot-productions.blogspot.com/" target="_blank" rel="noopener" style="color:var(--ss-muted);font-size:0.8rem;">
-          <i class="bi bi-journal-text me-1"></i>Production Blog
-        </a>
-      </div>
-    </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="sureshot.js"></script>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
