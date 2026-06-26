@@ -54,109 +54,110 @@
         <button class="ss-filter-pill active" data-filter="all">All Work</button>
         <button class="ss-filter-pill" data-filter="commercial">TV Commercials</button>
         <button class="ss-filter-pill" data-filter="corporate">Corporate</button>
-        <button class="ss-filter-pill" data-filter="government">Government &amp; PSA</button>
-        <button class="ss-filter-pill" data-filter="training">Training &amp; Education</button>
-        <button class="ss-filter-pill" data-filter="web">Web Video</button>
+        <button class="ss-filter-pill" data-filter="web">Web &amp; Other</button>
       </div>
 
       <!-- Portfolio Grid -->
       <div class="row g-3" id="portfolioGrid">
-        <!-- Items: placeholder cards representing their YouTube-based portfolio -->
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial" data-ss-reveal>
-          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal" data-title="Television Commercial Reel" data-yt="sureshot3122">
-            <div class="ss-portfolio-thumb-placeholder" style="aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;">
-              <div style="text-align:center;">
-                <i class="bi bi-tv" style="font-size:2.5rem;color:var(--ss-border);display:block;margin-bottom:0.5rem;"></i>
-                <span style="font-family:'Bebas Neue',sans-serif;font-size:1rem;color:var(--ss-muted);letter-spacing:0.08em;">TV COMMERCIAL</span>
-              </div>
-            </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Cropp Metcalfe Heating &amp; Cooling" data-yt="HJcv231hQ4Y">
+            <img src="https://img.youtube.com/vi/HJcv231hQ4Y/hqdefault.jpg"
+                 alt="Cropp Metcalfe TV Commercial"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Television Commercial Reel</h4>
-              <p>Broadcast Production</p>
+              <h4>Cropp Metcalfe</h4>
+              <p>TV Commercial</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="corporate" data-ss-reveal>
-          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal" data-title="Corporate Communications" data-yt="sureshot3122">
-            <div class="ss-portfolio-thumb-placeholder" style="aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;">
-              <div style="text-align:center;">
-                <i class="bi bi-building" style="font-size:2.5rem;color:var(--ss-border);display:block;margin-bottom:0.5rem;"></i>
-                <span style="font-family:'Bebas Neue',sans-serif;font-size:1rem;color:var(--ss-muted);letter-spacing:0.08em;">CORPORATE</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Ourisman Chantilly Kia TV Commercial" data-yt="8R7D6HosN3Y">
+            <img src="https://img.youtube.com/vi/8R7D6HosN3Y/hqdefault.jpg"
+                 alt="Ourisman Kia TV Commercial"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Corporate Communications</h4>
-              <p>Fortune 500 Client</p>
+              <h4>Ourisman Chantilly Kia</h4>
+              <p>TV Commercial</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="government" data-ss-reveal>
-          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal" data-title="Government PSA" data-yt="sureshot3122">
-            <div class="ss-portfolio-thumb-placeholder" style="aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;">
-              <div style="text-align:center;">
-                <i class="bi bi-shield-check" style="font-size:2.5rem;color:var(--ss-border);display:block;margin-bottom:0.5rem;"></i>
-                <span style="font-family:'Bebas Neue',sans-serif;font-size:1rem;color:var(--ss-muted);letter-spacing:0.08em;">GOVERNMENT / PSA</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Hadeed Carpet Cleaning — It&#39;s a Dirty World" data-yt="xLeyPDexcpk">
+            <img src="https://img.youtube.com/vi/xLeyPDexcpk/hqdefault.jpg"
+                 alt="Hadeed Carpet Cleaning Commercial"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Government PSA</h4>
-              <p>Public Service</p>
+              <h4>Hadeed Carpet Cleaning</h4>
+              <p>TV Commercial</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="training" data-ss-reveal>
-          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal" data-title="Employee Training Video" data-yt="sureshot3122">
-            <div class="ss-portfolio-thumb-placeholder" style="aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;">
-              <div style="text-align:center;">
-                <i class="bi bi-mortarboard" style="font-size:2.5rem;color:var(--ss-border);display:block;margin-bottom:0.5rem;"></i>
-                <span style="font-family:'Bebas Neue',sans-serif;font-size:1rem;color:var(--ss-muted);letter-spacing:0.08em;">TRAINING</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="corporate">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="CEB Corporate Video" data-yt="CJvNXcYgXMg">
+            <img src="https://img.youtube.com/vi/CJvNXcYgXMg/hqdefault.jpg"
+                 alt="CEB Corporate Video"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Employee Training Video</h4>
-              <p>Training &amp; Orientation</p>
+              <h4>CEB</h4>
+              <p>Corporate Video</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="web" data-ss-reveal>
-          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal" data-title="Web Marketing Video" data-yt="sureshot3122">
-            <div class="ss-portfolio-thumb-placeholder" style="aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;">
-              <div style="text-align:center;">
-                <i class="bi bi-globe" style="font-size:2.5rem;color:var(--ss-border);display:block;margin-bottom:0.5rem;"></i>
-                <span style="font-family:'Bebas Neue',sans-serif;font-size:1rem;color:var(--ss-muted);letter-spacing:0.08em;">WEB VIDEO</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="web">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Bubbles Hair Wars 2014" data-yt="2pRB_VXA4gQ">
+            <img src="https://img.youtube.com/vi/2pRB_VXA4gQ/hqdefault.jpg"
+                 alt="Bubbles Hair Wars 2014"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Web Marketing Video</h4>
-              <p>Digital Marketing</p>
+              <h4>Bubbles Hair Wars</h4>
+              <p>Event Video</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="training" data-ss-reveal>
-          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal" data-title="Educational Video Series" data-yt="sureshot3122">
-            <div class="ss-portfolio-thumb-placeholder" style="aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;">
-              <div style="text-align:center;">
-                <i class="bi bi-book" style="font-size:2.5rem;color:var(--ss-border);display:block;margin-bottom:0.5rem;"></i>
-                <span style="font-family:'Bebas Neue',sans-serif;font-size:1rem;color:var(--ss-muted);letter-spacing:0.08em;">EDUCATIONAL</span>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="web">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Getting the Look" data-yt="sHODDdqLJ_M">
+            <img src="https://img.youtube.com/vi/sHODDdqLJ_M/hqdefault.jpg"
+                 alt="Getting the Look"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Educational Video Series</h4>
-              <p>Educational Production</p>
+              <h4>Getting the Look</h4>
+              <p>Web Video</p>
             </div>
           </div>
         </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="web">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="3D Motion Graphics Demo" data-yt="9G5j_Vp8DGw">
+            <img src="https://img.youtube.com/vi/9G5j_Vp8DGw/hqdefault.jpg"
+                 alt="3D Motion Graphics"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>3D Motion Graphics</h4>
+              <p>Post Production</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <!-- YouTube Channel CTA -->
@@ -178,7 +179,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div class="ss-video-wrapper">
+          <div class="ratio ratio-16x9">
             <iframe id="videoModalFrame"
               src=""
               title="Sure Shot Productions Video"
@@ -205,5 +206,55 @@
   </section>
 
   <!-- FOOTER -->
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Video modal ───────────────────────────────────────────────── */
+  var modal = document.getElementById('videoModal');
+  var frame = document.getElementById('videoModalFrame');
+  var modalTitle = document.getElementById('videoModalTitle');
+
+  modal.addEventListener('show.bs.modal', function (e) {
+    var trigger = e.relatedTarget;
+    var yt    = trigger.getAttribute('data-yt') || 'SureShot3122';
+    var label = trigger.getAttribute('data-title') || 'Sure Shot Productions';
+
+    modalTitle.textContent = label;
+
+    // If data-yt looks like a video ID (11 chars), embed that video directly.
+    // Otherwise treat it as a channel/user name and show their uploads playlist.
+    var src = (yt.length === 11)
+      ? 'https://www.youtube.com/embed/' + yt + '?autoplay=1&rel=0'
+      : 'https://www.youtube.com/embed?listType=user_uploads&list=' + yt + '&autoplay=1&rel=0';
+
+    frame.src = src;
+  });
+
+  // Stop playback when modal closes — clearing src kills the iframe request.
+  modal.addEventListener('hide.bs.modal', function () {
+    frame.src = '';
+  });
+
+  /* ── Filter pills ──────────────────────────────────────────────── */
+  var pills = document.querySelectorAll('.ss-filter-pill');
+  var items = document.querySelectorAll('.ss-portfolio-grid-item');
+
+  pills.forEach(function (pill) {
+    pill.addEventListener('click', function () {
+      pills.forEach(function (p) { p.classList.remove('active'); });
+      pill.classList.add('active');
+
+      var filter = pill.getAttribute('data-filter');
+      items.forEach(function (item) {
+        item.style.display =
+          (filter === 'all' || item.getAttribute('data-category') === filter)
+            ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
 
 <?php include 'includes/footer.php'; ?>

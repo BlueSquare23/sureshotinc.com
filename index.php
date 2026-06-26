@@ -184,39 +184,47 @@
       </div>
 
       <div class="row g-3">
-        <!-- Portfolio thumbnails — linking to their YouTube channel since original site embeds YouTube -->
         <div class="col-md-6 col-lg-4" data-ss-reveal>
-          <div class="ss-portfolio-item">
-            <div class="ss-portfolio-thumb-placeholder">
-              <i class="bi bi-play-circle"></i>
+          <a href="portfolio.php" style="text-decoration:none;">
+            <div class="ss-portfolio-item">
+              <img src="https://img.youtube.com/vi/HJcv231hQ4Y/hqdefault.jpg"
+                   alt="Cropp Metcalfe TV Commercial"
+                   style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+              <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+              <div class="ss-portfolio-overlay">
+                <h4>TV Commercials</h4>
+                <p>Broadcast Production</p>
+              </div>
             </div>
-            <div class="ss-portfolio-overlay">
-              <h4>Television Commercials</h4>
-              <p>Broadcast Production</p>
-            </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-6 col-lg-4" data-ss-reveal>
-          <div class="ss-portfolio-item">
-            <div class="ss-portfolio-thumb-placeholder">
-              <i class="bi bi-play-circle"></i>
+          <a href="portfolio.php" style="text-decoration:none;">
+            <div class="ss-portfolio-item">
+              <img src="https://img.youtube.com/vi/CJvNXcYgXMg/hqdefault.jpg"
+                   alt="CEB Corporate Video"
+                   style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+              <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+              <div class="ss-portfolio-overlay">
+                <h4>Corporate Video</h4>
+                <p>Corporate &amp; Training</p>
+              </div>
             </div>
-            <div class="ss-portfolio-overlay">
-              <h4>Corporate Training</h4>
-              <p>Training &amp; Orientation</p>
-            </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-6 col-lg-4" data-ss-reveal>
-          <div class="ss-portfolio-item">
-            <div class="ss-portfolio-thumb-placeholder">
-              <i class="bi bi-play-circle"></i>
+          <a href="portfolio.php" style="text-decoration:none;">
+            <div class="ss-portfolio-item">
+              <img src="https://img.youtube.com/vi/2pRB_VXA4gQ/hqdefault.jpg"
+                   alt="Bubbles Hair Wars"
+                   style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+              <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+              <div class="ss-portfolio-overlay">
+                <h4>Web &amp; Event Video</h4>
+                <p>Digital Marketing</p>
+              </div>
             </div>
-            <div class="ss-portfolio-overlay">
-              <h4>Government &amp; PSA</h4>
-              <p>Public Service</p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
