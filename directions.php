@@ -79,7 +79,7 @@
 
         <!-- Map -->
         <div class="col-lg-8" data-ss-reveal>
-          <div class="ss-map-wrap" style="height:480px;">
+          <div class="ss-map-wrap">
             <iframe
               src="https://www.google.com/maps?q=3915+Old+Lee+Hwy+Suite+21C,+Fairfax,+VA+22030&output=embed"
               allowfullscreen
