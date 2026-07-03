@@ -17,7 +17,7 @@
             <span class="ss-accent">Move People.</span>
           </h1>
           <p class="ss-hero-lead">
-            Full-service HD video production serving DC, Northern Virginia,
+            Full Service 4K and HD video production serving DC, Northern Virginia,
             and Maryland since 1998 — from concept to final cut.
           </p>
           <div class="d-flex flex-wrap gap-3">
@@ -37,13 +37,13 @@
       <div class="row pt-3">
         <div class="col-6 col-md-3">
           <div class="ss-stat-item">
-            <div class="ss-stat-number"><span data-count-to="22">22</span>+</div>
+            <div class="ss-stat-number">28+</div>
             <div class="ss-stat-label">Years in Business</div>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="ss-stat-item">
-            <div class="ss-stat-number">1000+</div>
+            <div class="ss-stat-number">10,000+</div>
             <div class="ss-stat-label">Videos Produced</div>
           </div>
         </div>
@@ -74,14 +74,14 @@
           <h2 class="ss-section-title">About Sure Shot <span class="accent">Productions</span></h2>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
             Sure Shot Productions provides full-service high-definition video production
-            in Northern Virginia, Washington D.C., and Maryland. Located in Fairfax, VA —
-            conveniently close to DC and Maryland — we offer a complete range of production
-            services including Full Service Video, Script Writing, Producing, Directing,
-            Shooting, Editing, and more.
+            in Northern Virginia, Washington D.C., and Maryland. We offer a complete range
+            of production services including Concept Development, Script Writing, Producing,
+            Directing, Shooting, Editing, and more.
           </p>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
             We specialize in Television Commercials, PSAs, Training &amp; Orientation Videos,
-            Educational Videos, Marketing Videos, DVDs, and Web Videos.
+            Podcasts, Educational Videos, Marketing Videos, Promotional Videos, Issue Videos
+            and Web Videos.
           </p>
           <a href="about.php" class="btn-ss-outline mt-4 d-inline-block">Learn More About Us</a>
         </div>
@@ -125,14 +125,7 @@
           <div class="ss-card">
             <div class="ss-card-icon"><i class="bi bi-camera-video"></i></div>
             <h3>Field Production</h3>
-            <p>Single and multiple 4K &amp; HD camera packages with full audio, lighting, grip, and ancillary services anywhere in the DMV.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-ss-reveal>
-          <div class="ss-card">
-            <div class="ss-card-icon"><i class="bi bi-display"></i></div>
-            <h3>Studio Production</h3>
-            <p>16' wide × 8' high green screen cyclorama wall, dolly, 9' jib, and a full glide camera system ready for your shoot.</p>
+            <p>Single and multiple 4K &amp; HD camera packages with full audio, lighting, grip, and ancillary services.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4" data-ss-reveal>
@@ -153,14 +146,14 @@
           <div class="ss-card">
             <div class="ss-card-icon"><i class="bi bi-tv"></i></div>
             <h3>TV Commercials &amp; PSAs</h3>
-            <p>Broadcast-ready commercials and public service announcements produced to the highest professional standards.</p>
+            <p>Compelling, broadcast-ready commercials and public service announcements that deliver your message with impact.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4" data-ss-reveal>
           <div class="ss-card">
-            <div class="ss-card-icon"><i class="bi bi-globe"></i></div>
-            <h3>Web &amp; Marketing Video</h3>
-            <p>Training, orientation, educational, and marketing videos optimized for the web — compressed and ready to deploy.</p>
+            <div class="ss-card-icon"><i class="bi bi-mic"></i></div>
+            <h3>Podcasts &amp; Web Videos</h3>
+            <p>Podcasts, training, orientation, educational, and marketing videos optimized for your audience and crafted to tell your story.</p>
           </div>
         </div>
       </div>
@@ -176,7 +169,7 @@
         <div class="col-lg-6">
           <div class="ss-divider"></div>
           <h2 class="ss-section-title">Recent <span class="accent">Work</span></h2>
-          <p class="ss-section-sub">Award-winning video productions for Fortune 500 companies, government agencies, and regional businesses.</p>
+          <p class="ss-section-sub">Award-winning video productions for Fortune 500 companies, government agencies, associations, and regional businesses.</p>
         </div>
         <div class="col-lg-6 d-flex align-items-end justify-content-lg-end">
           <a href="portfolio.php" class="btn-ss-outline mb-1">Full Portfolio</a>

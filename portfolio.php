@@ -34,17 +34,18 @@
         <div class="col-lg-9 text-center">
           <div class="ss-divider mx-auto"></div>
           <h2 class="ss-section-title mt-3">
-            Top Video Production <span class="accent">Companies</span><br>in DC and Northern Virginia
+            Award Winning Video Production <span class="accent">Company</span><br>in DC and Northern Virginia
           </h2>
           <p class="mt-4" style="color:var(--ss-muted);font-size:1.05rem;line-height:1.9;">
-            Sure Shot Productions is one of the top video production companies in DC and Northern Virginia, 
-            producing award-winning videos for 22 years. When it comes to production companies, we create 
-            commercials and videos that deliver a compelling message to get you results. Our company offers 
-            professional video services with state-of-the-art equipment, studios, and editing.
+            Sure Shot Productions is a longstanding, top rated video production company. Located in the
+            DC and Northern Virginia area, Sure Shot has been producing award-winning videos for almost
+            30 years for clients locally and across the country. We are well versed in how to create
+            commercials, podcasts, training/educational videos, marketing videos and issue videos that
+            deliver a compelling message targeted to get you results.
           </p>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
-            Some of our video production services include scripting/concept development, field production, 
-            studio production, audio production, post production, motion graphics and special effects.
+            Our services include scripting/concept development, field production, audio production,
+            post production, motion graphics and special effects.
           </p>
         </div>
       </div>
@@ -199,7 +200,8 @@
         Ready for Your Next <span class="text-gold">Production?</span>
       </h2>
       <p style="color:var(--ss-muted);max-width:480px;margin:1rem auto 2rem;">
-        Contact Sure Shot Productions for your next professional video production in DC and Northern Virginia.
+        Contact us today to discuss your next video production.
+        Serving customers in DC, Virginia, Maryland and across the country since 1998.
       </p>
       <a href="contact.php" class="btn-ss-primary" style="font-size:1.1rem;padding:1rem 2.5rem;">Get a Free Quote</a>
     </div>

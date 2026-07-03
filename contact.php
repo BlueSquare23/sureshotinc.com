@@ -36,8 +36,8 @@ include 'includes/header.php';
               <div>
                 <p>
                   <strong style="color:var(--ss-white);display:block;margin-bottom:2px;">Sure Shot Productions, Inc.</strong>
-                  3915 Old Lee Hwy, Suite 21C<br>
-                  Fairfax, VA 22030
+                  275 Cameron Station Blvd.<br>
+                  Alexandria, VA 22304
                 </p>
               </div>
             </div>

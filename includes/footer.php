@@ -4,8 +4,8 @@
         <div class="col-lg-4">
           <div class="ss-footer-brand">SURE SHOT <span>PRODUCTIONS</span></div>
           <address class="mt-2">
-            3915 Old Lee Hwy, Suite 21C<br>
-            Fairfax, VA 22030<br>
+            275 Cameron Station Blvd.<br>
+            Alexandria, VA 22304<br>
             <a href="tel:7033790600">(703) 379-0600</a>
           </address>
           <div class="ss-social-links">
@@ -23,18 +23,17 @@
             <li><a href="services.php">Services</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="clients.php">For Clients</a></li>
-            <li><a href="directions.php">Directions</a></li>
           </ul>
         </div>
         <div class="col-6 col-lg-3">
           <h5>Services</h5>
           <ul class="ss-footer-links">
             <li><a href="services.php">4K Field Production</a></li>
-            <li><a href="services.php">Studio Production</a></li>
             <li><a href="services.php">Post Production</a></li>
+            <li><a href="services.php">Podcast Production</a></li>
             <li><a href="services.php">Script Writing</a></li>
             <li><a href="services.php">TV Commercials</a></li>
-            <li><a href="services.php">Web Video</a></li>
+            <li><a href="services.php">Training &amp; Education</a></li>
           </ul>
         </div>
         <div class="col-lg-3">

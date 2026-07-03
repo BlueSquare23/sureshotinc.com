@@ -33,7 +33,6 @@
           <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
           <li class="nav-item"><a class="nav-link" href="clients.php">For Clients</a></li>
-          <li class="nav-item"><a class="nav-link" href="directions.php">Directions</a></li>
         </ul>
       </div>
     </div>

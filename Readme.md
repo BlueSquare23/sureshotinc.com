@@ -30,7 +30,6 @@ Bootstrap and Bootstrap Icons are loaded from CDN — there is no `npm`, no buil
 ├── contact.php             # Contact form (reCAPTCHA v2)
 ├── contact-handler.php     # POST endpoint — validates, verifies captcha, sends email
 ├── clients.php             # Client resources
-├── directions.php          # Driving directions
 │
 ├── includes/
 │   ├── header.php          # Shared <head>, navbar (included by every page)

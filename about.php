@@ -11,7 +11,7 @@
         </ol>
       </nav>
       <h1 class="mt-2">About <span class="text-gold">Sure Shot</span></h1>
-      <p style="color:var(--ss-muted);margin-top:0.5rem;">Video Production — Washington DC, Virginia &amp; Maryland</p>
+      <p style="color:var(--ss-muted);margin-top:0.5rem;">Compelling storytelling since 1998.</p>
     </div>
   </header>
 
@@ -23,20 +23,20 @@
           <div class="ss-divider"></div>
           <h2 class="ss-section-title">Our <span class="accent">Story</span></h2>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
-            Sure Shot Productions was founded in 1998 by seasoned video professionals 
-            <strong style="color:var(--ss-white);">Will Meyer</strong> and 
-            <strong style="color:var(--ss-white);">Jeff Davis</strong>. Since we started our 
-            video production company, we've helped thousands of clients craft successful videos 
-            that reached their target audience and helped increase their success.
+            Sure Shot Productions was founded in 1998 by seasoned video professionals
+            <strong style="color:var(--ss-white);">Will Meyer</strong> and
+            <strong style="color:var(--ss-white);">Jeff Davis</strong>. Since our start almost
+            30 years ago, we've helped thousands of clients craft compelling videos that targeted
+            their audience and increased their success.
           </p>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
-            At Sure Shot, we've received many national awards for our video productions in 
-            Washington, DC and Northern Virginia — including numerous <em>Telly Awards</em>, 
-            <em>Cine Golden Eagles</em>, <em>ITVA Awards</em>, and more.
+            And we've received many national awards for our video productions — including numerous
+            <em>Telly Awards</em>, <em>Cine Golden Eagles</em>, <em>ITVA Awards</em>, and more.
           </p>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
-            Our clients include Fortune 500 companies, government agencies, advertising and 
-            marketing firms, as well as local and regional businesses throughout the DC metro area.
+            Our clients include Fortune 500 companies, government agencies, advertising and
+            marketing firms, as well as local and regional businesses in the DMV and throughout
+            the country.
           </p>
           <a href="contact.php" class="btn-ss-primary mt-4 d-inline-block">Work With Us</a>
         </div>
@@ -147,7 +147,7 @@
           <div class="ss-card text-center">
             <div class="ss-card-icon"><i class="bi bi-megaphone"></i></div>
             <h3>Ad &amp; Marketing</h3>
-            <p>Production support for advertising and marketing firms throughout the DC region.</p>
+            <p>Production expertise for advertising and marketing firms in the DC region and throughout the country.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3" data-ss-reveal>
@@ -168,8 +168,8 @@
         Ready to Work with <span class="text-gold">Sure Shot?</span>
       </h2>
       <p style="color:var(--ss-muted);max-width:480px;margin:1rem auto 2rem;">
-        Contact us today to discuss your next video production project. 
-        Serving the DC metro area since 1998.
+        Contact us today to discuss your next video production.
+        Serving customers in DC, Virginia, Maryland and across the country since 1998.
       </p>
       <a href="contact.php" class="btn-ss-primary" style="font-size:1.1rem;padding:1rem 2.5rem;">Contact Us Today</a>
     </div>
