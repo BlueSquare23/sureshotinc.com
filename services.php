@@ -24,10 +24,11 @@
           <h2 class="ss-section-title mt-3">What Can Our Video Production <span class="accent">Company Do For You?</span></h2>
           <p class="mt-3" style="color:var(--ss-muted);font-size:1.05rem;line-height:1.9;">
             Many clients depend on Sure Shot Productions to handle their video production
-            from script writing to final delivery. Others need videography, post-production,
-            or additional services. We have camera packages and crew for field production.
-            We also edit video, produce podcasts, create motion graphics and animation,
-            and offer audio production.
+            or podcast from script writing to final delivery. Others need Videography,
+            Audio production, Post-production, or additional services. We have camera
+            packages and crew for field and studio production. We have full portable audio
+            suites for podcasts and audio productions. We also edit video, create motion
+            graphics and animation, as well as final mastering and encoding.
           </p>
           <a href="portfolio.php" class="btn-ss-outline mt-4 d-inline-block">View Our Portfolio</a>
         </div>

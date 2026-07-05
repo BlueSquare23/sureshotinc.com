@@ -10,15 +10,15 @@
     <div class="container ss-hero-inner">
       <div class="row">
         <div class="col-xl-7 col-lg-9">
-          <p class="ss-hero-eyebrow">Washington DC &amp; Northern Virginia</p>
+          <p class="ss-hero-eyebrow">Based in the Washington DC Area</p>
           <h1 class="ss-hero-h1">
             We Tell<br>
             Stories That<br>
             <span class="ss-accent">Move People.</span>
           </h1>
           <p class="ss-hero-lead">
-            Full Service 4K and HD video production serving DC, Northern Virginia,
-            and Maryland since 1998 — from concept to final cut.
+            Full Service 4K and HD video production serving clients across the country
+            since 1998 — from concept to final cut.
           </p>
           <div class="d-flex flex-wrap gap-3">
             <a href="contact.php" class="btn-ss-primary">Get a Free Quote</a>
@@ -73,7 +73,7 @@
           <div class="ss-divider"></div>
           <h2 class="ss-section-title">About Sure Shot <span class="accent">Productions</span></h2>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
-            Sure Shot Productions provides full-service high-definition video production
+            Sure Shot Productions provides full-service 4K &amp; high-definition video production
             in Northern Virginia, Washington D.C., and Maryland. We offer a complete range
             of production services including Concept Development, Script Writing, Producing,
             Directing, Shooting, Editing, and more.
@@ -232,8 +232,8 @@
         Ready to Start Your Next<br><span class="text-gold">Video Project?</span>
       </h2>
       <p style="color:var(--ss-muted);max-width:480px;margin:1rem auto 2rem;">
-        Tell us about your project and we'll get back to you with a quick quote. 
-        Proudly serving the DC metro area since 1998.
+        Tell us about your project and we'll get back to you with a quick quote!
+        Serving customers in DC, Virginia, Maryland and across the country since 1998.
       </p>
       <a href="contact.php" class="btn-ss-primary" style="font-size:1.1rem;padding:1rem 2.5rem;">
         Get a Free Quote
