@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$logo_path = ($_GET['logo'] ?? '') === 'blue'
+    ? 'static/images/logo_blue.svg'
+    : 'static/images/logo.svg';
+include 'includes/header.php';
+?>
 
 
   <!-- ============================================================

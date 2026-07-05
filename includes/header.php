@@ -12,7 +12,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <!-- Sure Shot -->
   <link href="static/css/main.css" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="static/images/logo.svg">
+  <link rel="icon" type="image/svg+xml" href="<?= htmlspecialchars($logo_path ?? 'static/images/logo.svg') ?>">
   <?php if (!empty($extra_head)) echo $extra_head; ?>
 </head>
 <body class="ss-page-offset">
@@ -20,7 +20,7 @@
   <nav class="ss-navbar navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="index.php">
-        <img src="static/images/logo.svg" alt="Sure Shot Productions logo" style="height:40px;width:40px;object-fit:contain;margin-right:0.4rem;">
+        <img src="<?= htmlspecialchars($logo_path ?? 'static/images/logo.svg') ?>" alt="Sure Shot Productions logo" style="height:40px;width:40px;object-fit:contain;margin-right:0.4rem;">
         SURE SHOT <span>PRODUCTIONS</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ssNav">
