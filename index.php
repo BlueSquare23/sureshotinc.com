@@ -89,7 +89,7 @@
           <!-- Embedded YouTube channel -->
           <div class="ss-video-wrapper ratio ratio-16x9">
             <iframe
-              src="https://www.youtube.com/embed?listType=user_uploads&list=SureShot3122"
+              src="https://www.youtube.com/embed?listType=user_uploads&list=SureShot3122&autoplay=1&mute=1&rel=0"
               title="Sure Shot Productions Video Reel"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
@@ -180,13 +180,13 @@
         <div class="col-md-6 col-lg-4" data-ss-reveal>
           <a href="portfolio.php" style="text-decoration:none;">
             <div class="ss-portfolio-item">
-              <img src="https://img.youtube.com/vi/HJcv231hQ4Y/hqdefault.jpg"
-                   alt="Cropp Metcalfe TV Commercial"
+              <img src="https://img.youtube.com/vi/J1UjH8PJOXQ/hqdefault.jpg"
+                   alt="HII — Innovation to Protect Our Nation"
                    style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
               <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
               <div class="ss-portfolio-overlay">
-                <h4>TV Commercials</h4>
-                <p>Broadcast Production</p>
+                <h4>HII</h4>
+                <p>Innovation to Protect Our Nation</p>
               </div>
             </div>
           </a>
@@ -194,13 +194,13 @@
         <div class="col-md-6 col-lg-4" data-ss-reveal>
           <a href="portfolio.php" style="text-decoration:none;">
             <div class="ss-portfolio-item">
-              <img src="https://img.youtube.com/vi/CJvNXcYgXMg/hqdefault.jpg"
-                   alt="CEB Corporate Video"
+              <img src="https://img.youtube.com/vi/p4R4e3OwBf0/hqdefault.jpg"
+                   alt="Merrifield Garden Center Autumn"
                    style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
               <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
               <div class="ss-portfolio-overlay">
-                <h4>Corporate Video</h4>
-                <p>Corporate &amp; Training</p>
+                <h4>Merrifield Garden Center</h4>
+                <p>Autumn</p>
               </div>
             </div>
           </a>
@@ -208,13 +208,13 @@
         <div class="col-md-6 col-lg-4" data-ss-reveal>
           <a href="portfolio.php" style="text-decoration:none;">
             <div class="ss-portfolio-item">
-              <img src="https://img.youtube.com/vi/2pRB_VXA4gQ/hqdefault.jpg"
-                   alt="Bubbles Hair Wars"
+              <img src="https://img.youtube.com/vi/V1Iyfvld1R8/hqdefault.jpg"
+                   alt="Cabinet Discounters Summer Splash"
                    style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
               <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
               <div class="ss-portfolio-overlay">
-                <h4>Web &amp; Event Video</h4>
-                <p>Digital Marketing</p>
+                <h4>Cabinet Discounters</h4>
+                <p>Summer Splash</p>
               </div>
             </div>
           </a>

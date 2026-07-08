@@ -54,107 +54,233 @@
       <div class="ss-filter-pills" id="portfolioFilters">
         <button class="ss-filter-pill active" data-filter="all">All Work</button>
         <button class="ss-filter-pill" data-filter="commercial">TV Commercials</button>
-        <button class="ss-filter-pill" data-filter="corporate">Corporate</button>
-        <button class="ss-filter-pill" data-filter="web">Web &amp; Other</button>
+        <button class="ss-filter-pill" data-filter="promotion">Promotion/Issue</button>
+        <button class="ss-filter-pill" data-filter="podcasts">Podcasts &amp; Events</button>
       </div>
 
       <!-- Portfolio Grid -->
       <div class="row g-3" id="portfolioGrid">
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial">
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="general">
           <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
-               data-title="Cropp Metcalfe Heating &amp; Cooling" data-yt="HJcv231hQ4Y">
-            <img src="https://img.youtube.com/vi/HJcv231hQ4Y/hqdefault.jpg"
-                 alt="Cropp Metcalfe TV Commercial"
+               data-title="N2Grate Data Center and Cloud Integration" data-yt="GF73CkecuKg">
+            <img src="https://img.youtube.com/vi/GF73CkecuKg/hqdefault.jpg"
+                 alt="N2Grate Data Center and Cloud Integration"
                  style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Cropp Metcalfe</h4>
-              <p>TV Commercial</p>
+              <h4>N2Grate</h4>
+              <p>Data Center &amp; Cloud Integration</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="general">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Belfort Furniture 4th of July Mattress Event" data-yt="3lg42tSONww">
+            <img src="https://img.youtube.com/vi/3lg42tSONww/hqdefault.jpg"
+                 alt="Belfort Furniture 4th of July Mattress Event"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>Belfort Furniture</h4>
+              <p>4th of July Mattress Event</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="general">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Cabinet Discounters" data-yt="ALOhVj49ZP0">
+            <img src="https://img.youtube.com/vi/ALOhVj49ZP0/hqdefault.jpg"
+                 alt="Cabinet Discounters"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>Cabinet Discounters</h4>
+              <p>Commercial</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="general">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Hii Defense Tech 2026" data-yt="MsFv36Icwbs">
+            <img src="https://img.youtube.com/vi/MsFv36Icwbs/hqdefault.jpg"
+                 alt="Hii Defense Tech 2026"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>HII</h4>
+              <p>Defense Tech 2026</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="general">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Airbus Cyber Security" data-yt="lY7hiQPB3jc">
+            <img src="https://img.youtube.com/vi/lY7hiQPB3jc/hqdefault.jpg"
+                 alt="Airbus Cyber Security"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>Airbus</h4>
+              <p>Cyber Security</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="general">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Get your word out via podcast" data-yt="41OToVsQj5Y">
+            <img src="https://img.youtube.com/vi/41OToVsQj5Y/hqdefault.jpg"
+                 alt="Get your word out via podcast"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>Get Your Word Out</h4>
+              <p>Via Podcast</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="general">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Merrifield Garden Center Spring" data-yt="tupGLgn6D48">
+            <img src="https://img.youtube.com/vi/tupGLgn6D48/hqdefault.jpg"
+                 alt="Merrifield Garden Center Spring"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>Merrifield Garden Center</h4>
+              <p>Spring</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial">
           <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
-               data-title="Ourisman Chantilly Kia TV Commercial" data-yt="8R7D6HosN3Y">
-            <img src="https://img.youtube.com/vi/8R7D6HosN3Y/hqdefault.jpg"
-                 alt="Ourisman Kia TV Commercial"
+               data-title="Belfort Furniture Year End Clearance Event" data-yt="NTl7jk5zERs">
+            <img src="https://img.youtube.com/vi/NTl7jk5zERs/hqdefault.jpg"
+                 alt="Belfort Furniture Year End Clearance Event"
                  style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Ourisman Chantilly Kia</h4>
-              <p>TV Commercial</p>
+              <h4>Belfort Furniture</h4>
+              <p>Year End Clearance Event</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial">
           <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
-               data-title="Hadeed Carpet Cleaning — It&#39;s a Dirty World" data-yt="xLeyPDexcpk">
-            <img src="https://img.youtube.com/vi/xLeyPDexcpk/hqdefault.jpg"
-                 alt="Hadeed Carpet Cleaning Commercial"
+               data-title="Mervis Inventory Reduction Sale" data-yt="3qQmpsgipuE">
+            <img src="https://img.youtube.com/vi/3qQmpsgipuE/hqdefault.jpg"
+                 alt="Mervis Inventory Reduction Sale"
                  style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Hadeed Carpet Cleaning</h4>
+              <h4>Mervis</h4>
+              <p>Inventory Reduction Sale</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Merrifield Garden Center" data-yt="KoRXNqGYAuA">
+            <img src="https://img.youtube.com/vi/KoRXNqGYAuA/hqdefault.jpg"
+                 alt="Merrifield Garden Center"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>Merrifield Garden Center</h4>
               <p>TV Commercial</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="corporate">
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="promotion">
           <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
-               data-title="CEB Corporate Video" data-yt="CJvNXcYgXMg">
-            <img src="https://img.youtube.com/vi/CJvNXcYgXMg/hqdefault.jpg"
-                 alt="CEB Corporate Video"
+               data-title="Hii Innovation to Protect Our Nation" data-yt="J1UjH8PJOXQ">
+            <img src="https://img.youtube.com/vi/J1UjH8PJOXQ/hqdefault.jpg"
+                 alt="Hii Innovation to Protect Our Nation"
                  style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>CEB</h4>
-              <p>Corporate Video</p>
+              <h4>HII</h4>
+              <p>Innovation to Protect Our Nation</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="web">
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="promotion">
           <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
-               data-title="Bubbles Hair Wars 2014" data-yt="2pRB_VXA4gQ">
-            <img src="https://img.youtube.com/vi/2pRB_VXA4gQ/hqdefault.jpg"
-                 alt="Bubbles Hair Wars 2014"
+               data-title="From Amber Frozen — Dover Quartet with Mason Bates" data-yt="I6nt4qzzlvY">
+            <img src="https://img.youtube.com/vi/I6nt4qzzlvY/hqdefault.jpg"
+                 alt="From Amber Frozen — Dover Quartet with Mason Bates"
                  style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Bubbles Hair Wars</h4>
-              <p>Event Video</p>
+              <h4>From Amber Frozen</h4>
+              <p>Dover Quartet with Mason Bates</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="web">
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="promotion">
           <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
-               data-title="Getting the Look" data-yt="sHODDdqLJ_M">
-            <img src="https://img.youtube.com/vi/sHODDdqLJ_M/hqdefault.jpg"
-                 alt="Getting the Look"
+               data-title="CSI — 100 Years and Counting" data-yt="Bn6qy9oGoIA">
+            <img src="https://img.youtube.com/vi/Bn6qy9oGoIA/hqdefault.jpg"
+                 alt="CSI — 100 Years and Counting"
                  style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>Getting the Look</h4>
-              <p>Web Video</p>
+              <h4>CSI</h4>
+              <p>100 Years and Counting</p>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="web">
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="podcasts">
           <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
-               data-title="3D Motion Graphics Demo" data-yt="9G5j_Vp8DGw">
-            <img src="https://img.youtube.com/vi/9G5j_Vp8DGw/hqdefault.jpg"
-                 alt="3D Motion Graphics"
+               data-title="SSP Podcasts 2026" data-yt="mTEodkZ0TWQ">
+            <img src="https://img.youtube.com/vi/mTEodkZ0TWQ/hqdefault.jpg"
+                 alt="SSP Podcasts 2026"
                  style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
             <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
             <div class="ss-portfolio-overlay">
-              <h4>3D Motion Graphics</h4>
-              <p>Post Production</p>
+              <h4>SSP Podcasts</h4>
+              <p>2026</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="podcasts">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="PVA Summit Expo for Clinicians" data-yt="GZAYgTddUfM">
+            <img src="https://img.youtube.com/vi/GZAYgTddUfM/hqdefault.jpg"
+                 alt="PVA Summit Expo for Clinicians"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>PVA Summit</h4>
+              <p>Expo for Clinicians</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="podcasts">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Hii Leadership Summit" data-yt="wip8RcthifI">
+            <img src="https://img.youtube.com/vi/wip8RcthifI/hqdefault.jpg"
+                 alt="Hii Leadership Summit"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>HII</h4>
+              <p>Leadership Summit</p>
             </div>
           </div>
         </div>
