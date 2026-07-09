@@ -89,7 +89,7 @@
           <!-- Embedded YouTube channel -->
           <div class="ss-video-wrapper ratio ratio-16x9">
             <iframe
-              src="https://www.youtube.com/embed?listType=user_uploads&list=SureShot3122&autoplay=1&mute=1&rel=0"
+              src="https://www.youtube.com/embed/jv2lvJJYqYc?list=UUk1-nIC3XMCBJoyLrccsbkA&autoplay=1&mute=1&rel=0"
               title="Sure Shot Productions Video Reel"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
