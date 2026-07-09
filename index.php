@@ -73,10 +73,10 @@
           <div class="ss-divider"></div>
           <h2 class="ss-section-title">About Sure Shot <span class="accent">Productions</span></h2>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
-            Sure Shot Productions provides full-service 4K &amp; high-definition video production
-            in Northern Virginia, Washington D.C., and Maryland. We offer a complete range
-            of production services including Concept Development, Script Writing, Producing,
-            Directing, Shooting, Editing, and more.
+            Sure Shot Productions provides full-service 4K &amp; high-definition video
+            production to clients around the country. Based in the Washington DC area, we
+            offer a complete range of production services including Concept Development,
+            Script Writing, Producing, Directing, Shooting, Editing, and more.
           </p>
           <p class="mt-3" style="color:var(--ss-muted);line-height:1.9;">
             We specialize in Television Commercials, PSAs, Training &amp; Orientation Videos,
