@@ -201,6 +201,20 @@
           </div>
         </div>
 
+        <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="commercial">
+          <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
+               data-title="Ourisman Lincoln Summer of YES" data-yt="JI_N1VGnPEI">
+            <img src="https://img.youtube.com/vi/JI_N1VGnPEI/hqdefault.jpg"
+                 alt="Ourisman Lincoln Summer of YES"
+                 style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;">
+            <div class="ss-play-btn"><i class="bi bi-play-fill"></i></div>
+            <div class="ss-portfolio-overlay">
+              <h4>Ourisman Lincoln</h4>
+              <p>Summer of YES</p>
+            </div>
+          </div>
+        </div>
+
         <div class="col-md-6 col-lg-4 ss-portfolio-grid-item" data-category="promotion">
           <div class="ss-portfolio-item" data-bs-toggle="modal" data-bs-target="#videoModal"
                data-title="Hii Innovation to Protect Our Nation" data-yt="J1UjH8PJOXQ">
